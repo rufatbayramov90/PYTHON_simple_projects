@@ -28,7 +28,7 @@ print(num)
     print(name)
 '''
 
-list = ["Car", "Fruit", "Cities", "Examples"]
+'''list = ["Car", "Fruit", "Cities", "Examples"]
 print(list[-1])
 print(list[2])
 list.append("People")
@@ -45,6 +45,21 @@ list_Filter3 = list_All[:3]
 print(list_Filter1)
 print(list_Filter2)
 print(list_Filter3)
+'''
+
+#range
+listRange = list(range(10))
+print(listRange)
+#remove 
+listRange.remove(2)
+print(listRange)
+#reverse
+listRange.reverse()
+print(listRange)
+#for
+for item in range(14):
+    if item % 2 == 0:
+        print(item)
 
 
 
