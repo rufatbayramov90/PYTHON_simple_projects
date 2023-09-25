@@ -68,6 +68,7 @@ person = {
     'surname' : "Bayram",
     'age': 32
 }
+'''
 #Add height 
 person['height'] = 1.76
 print(person)
@@ -86,7 +87,13 @@ print(person.get("Alex",False))
 
 for key, value in person.items():
     print(key,"=",value)
-
+'''
+#writes the values
+for value in person.keys():
+    print(person[value])
+#writes the keys
+for key in person.keys():
+    print(key)
 
 
 
