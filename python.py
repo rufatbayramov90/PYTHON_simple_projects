@@ -96,7 +96,7 @@ for key in person.keys():
     print(key)
 '''
 
-
+'''
 basket = set()
 basket.add("Alis")
 basket.add("Kevin")
@@ -117,9 +117,24 @@ print(odd_number.union(even_number))
 #received the same values
 prime_number =set ([2,5,4,9,11])
 print(odd_number.intersection(prime_number))
+'''
 
+def total():
+    print("Total")
+    return "Rufo"
+x=total()
+print(x)
+#...
+def total(a,b):
+    return a+b
+x=total(3,5)
+print(x)
 
-
+#...
+def total(a,b=3):
+    return a + b
+x=total(2)
+print(x)
 
 
 
