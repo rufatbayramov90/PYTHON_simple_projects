@@ -47,6 +47,7 @@ print(list_Filter2)
 print(list_Filter3)
 '''
 
+'''
 #range
 listRange = list(range(10))
 print(listRange)
@@ -60,6 +61,33 @@ print(listRange)
 for item in range(14):
     if item % 2 == 0:
         print(item)
+'''
+
+person = {
+    'name' : "Rufo",
+    'surname' : "Bayram",
+    'age': 32
+}
+#Add height 
+person['height'] = 1.76
+print(person)
+#...
+print(person['name'])
+
+#If person has name, it prints its value
+if "Alex" in person:
+    print(person["Alex"])
+else:
+    print("There is no such name")
+
+#If Alex isn't there returns an error
+print(person.get("Alex",False))
+
+
+for key, value in person.items():
+    print(key,"=",value)
+
+
 
 
 
