@@ -88,12 +88,41 @@ print(person.get("Alex",False))
 for key, value in person.items():
     print(key,"=",value)
 '''
-#writes the values
+'''#writes the values
 for value in person.keys():
     print(person[value])
-#writes the keys
+#writes the key
 for key in person.keys():
     print(key)
+'''
+
+
+basket = set()
+basket.add("Alis")
+basket.add("Kevin")
+print(basket)
+
+#remove Kevin
+basket.remove("Kevin")
+print(basket)
+
+#clear basket
+basket.clear()
+
+#sort from less to more  (does not take the same values)
+odd_number = set([1,3,5,7])
+even_number = set([2,4,6])
+print(odd_number.union(even_number))
+
+#received the same values
+prime_number =set ([2,5,4,9,11])
+print(odd_number.intersection(prime_number))
+
+
+
+
+
+
 
 
 
