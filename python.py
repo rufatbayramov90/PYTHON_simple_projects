@@ -13,9 +13,17 @@ while number <10:
     number += 1 
 '''
 
-num = 0
+'''num = 0
 while num < 10:
     num = num + 1
     if num % 2 != 0:
         continue
 print(num)
+'''
+
+while True:
+    name = input("Add your Name")
+    if name == "Rufo":
+        break
+    print(name)
+
