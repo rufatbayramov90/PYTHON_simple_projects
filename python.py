@@ -162,7 +162,7 @@ def factorial(x):
 result = factorial(5)
 print(result)
 '''
-
+'''
 #Lambda Expression 
 name = "Albert Kenyon".split(' ')[-1].lower()
 print(name)               # kenyon
@@ -174,6 +174,24 @@ print(new_num)            # 10,8,6,4
 lists = [10,8,7,6,5]
 new_list= list(map(lambda x:(x**2),lists))
 print(new_list)
+'''
+
+#class
+class Person:
+    def __init__(self,name,surname):
+        self.name = name
+        self.surname = surname
+
+    def speak(self):
+        print(f"{self.name} {self.surname} spoke")
+
+    def eat(self):
+        print(f"{self.name} {self.surname} ate")
+
+person = Person(name="Albert", surname= "Kenyon")
+person.speak()
+person.eat()
+
 
 
 
