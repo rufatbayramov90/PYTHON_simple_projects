@@ -1,1 +1,1 @@
-# python_while
+small projects for beginners
