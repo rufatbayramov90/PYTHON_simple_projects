@@ -152,7 +152,7 @@ def total(*args,**kwargs):
     print(kwargs)
 total(1,2,3,1,x=5,y=7)
 '''
-
+'''
 #Recursive Function
 def factorial(x):
     if x==1:
@@ -161,6 +161,25 @@ def factorial(x):
         return (x * factorial(x-1))
 result = factorial(5)
 print(result)
+'''
+
+#Lambda Expression 
+name = "Albert Kenyon".split(' ')[-1].lower()
+print(name)               # kenyon
+#filter
+num = [10,8,9,7,6,5,4]
+new_num = list(filter(lambda x:(x%2==0),num))
+print(new_num)            # 10,8,6,4
+#map
+lists = [10,8,7,6,5]
+new_list= list(map(lambda x:(x**2),lists))
+print(new_list)
+
+
+
+
+
+
 
 
 
