@@ -118,7 +118,7 @@ print(odd_number.union(even_number))
 prime_number =set ([2,5,4,9,11])
 print(odd_number.intersection(prime_number))
 '''
-
+'''
 def total():
     print("Total")
     return "Rufo"
@@ -135,6 +135,22 @@ def total(a,b=3):
     return a + b
 x=total(2)
 print(x)
+'''
+
+#function Args
+def total(*args,**kwargs):
+    collect = 0
+    for element in args:
+        collect = collect + element
+    return collect
+collect = total(1,2,3,4,5)
+print(collect)
+
+#...
+def total(*args,**kwargs):
+    print(args)
+    print(kwargs)
+total(1,2,3,1,x=5,y=7)
 
 
 
