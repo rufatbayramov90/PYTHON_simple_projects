@@ -136,7 +136,7 @@ def total(a,b=3):
 x=total(2)
 print(x)
 '''
-
+'''
 #function Args
 def total(*args,**kwargs):
     collect = 0
@@ -151,6 +151,16 @@ def total(*args,**kwargs):
     print(args)
     print(kwargs)
 total(1,2,3,1,x=5,y=7)
+'''
+
+#Recursive Function
+def factorial(x):
+    if x==1:
+        return 1
+    else:
+        return (x * factorial(x-1))
+result = factorial(5)
+print(result)
 
 
 
