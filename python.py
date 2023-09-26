@@ -175,7 +175,7 @@ lists = [10,8,7,6,5]
 new_list= list(map(lambda x:(x**2),lists))
 print(new_list)
 '''
-
+'''
 #class
 class Person:
     def __init__(self,name,surname):
@@ -191,6 +191,27 @@ class Person:
 person = Person(name="Albert", surname= "Kenyon")
 person.speak()
 person.eat()
+'''
+#length
+print(len( input("Write your name")))  
+#....
+name = input("What is your name?")
+length = len(name)
+print(length)
+#change the values
+b = input("b:")
+a=input("a:")
+
+c=b
+b=a
+a=c
+
+print("a-" + a)
+print("b-" + b)
+
+
+
+
 
 
 
