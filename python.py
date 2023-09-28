@@ -209,6 +209,12 @@ a=c
 print("a-" + a)
 print("b-" + b)
 
+#Program that adds the digits of a 2-digit number
+two_digit_number = input("Type a two digit number:")
+
+total = int(two_digit_number[0]) + int(two_digit_number[1])
+print(total)
+
 
 
 
